@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* Tokens from DESIGN.md. Dark mode uses its surface-dark tokens. */
+:root {
+  --canvas: #fffaf0;
+  --surface-soft: #faf5e8;
+  --surface-card: #f5f0e0;
+  --surface-strong: #ebe6d6;
+  --ink: #0a0a0a;
+  --body: #3a3a3a;
+  --muted: #6a6a6a;
+  --hairline: #e5e5e5;
+  --primary: #0a0a0a;
+  --primary-active: #1f1f1f;
+  --on-primary: #ffffff;
+  --card-ink: #0a0a0a;
+  --card-lavender: #b8a4ed;
+  --card-peach: #ffb084;
+  --card-ochre: #e8b94a;
+  --mark-bg: #fffaf0;
+  --block: #dc2626;
+  --warn: #d97706;
+  --pass: #16a34a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --canvas: #0a1a1a;
+    --surface-soft: #1a2a2a;
+    --surface-card: #1f3030;
+    --surface-strong: #2a3a3a;
+    --ink: #f5f0e0;
+    --body: #d6d1c4;
+    --muted: #a0a0a0;
+    --hairline: #2a3a3a;
+    --primary: #fffaf0;
+    --primary-active: #ebe6d6;
+    --on-primary: #0a0a0a;
+    --mark-bg: #fffaf0;
+    --block: #f87171;
+    --warn: #fbbf24;
+    --pass: #4ade80;
+  }
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface-soft: var(--surface-soft);
+  --color-surface-card: var(--surface-card);
+  --color-surface-strong: var(--surface-strong);
+  --color-ink: var(--ink);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-hairline: var(--hairline);
+  --color-primary: var(--primary);
+  --color-primary-active: var(--primary-active);
+  --color-on-primary: var(--on-primary);
+  --color-card-ink: var(--card-ink);
+  --color-card-lavender: var(--card-lavender);
+  --color-card-peach: var(--card-peach);
+  --color-card-ochre: var(--card-ochre);
+  --color-mark-bg: var(--mark-bg);
+  --color-block: var(--block);
+  --color-warn: var(--warn);
+  --color-pass: var(--pass);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}

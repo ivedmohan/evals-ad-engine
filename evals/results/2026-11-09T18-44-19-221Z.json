@@ -1,0 +1,778 @@
+{
+  "ts": "2026-11-09T18:44:19.221Z",
+  "reviewer_model": "claude-haiku-5-5",
+  "reviewer_effort": "high",
+  "examples": 29,
+  "exact_match": 19,
+  "block_recall": 0.5555555555555556,
+  "block_examples": 9,
+  "per_rule": {
+    "R1": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "R2": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "R3": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "R4": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "R5": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.5
+    },
+    "R6": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "R7": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1,
+      "recall": 0.5
+    },
+    "R8": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": null,
+      "recall": 0
+    }
+  },
+  "total_cost_usd": 0.013764400000000001,
+  "ms": 19302,
+  "rows": [
+    {
+      "line": 1,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved.",
+          "reason": "The lint hit is a negated disclosure stating the product is not FDA-approved, not a claim that it is FDA-approved, so R1 is not violated."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0004299
+    },
+    {
+      "line": 2,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.000273
+    },
+    {
+      "line": 3,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.000261
+    },
+    {
+      "line": 4,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved",
+          "reason": "The phrase is a negated disclosure that the product is not FDA-approved, which is what R8 requires. It does not claim or imply FDA approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0003798
+    },
+    {
+      "line": 5,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00026270000000000004
+    },
+    {
+      "line": 6,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "not FDA-approved",
+          "reason": "The ad states that compounded medications are not FDA-approved, which is a disclosure, not a claim of FDA approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00039610000000000003
+    },
+    {
+      "line": 7,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.000294
+    },
+    {
+      "line": 8,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R4",
+          "quote": "pick the best time",
+          "reason": "\"Best\" describes the timing of a check-in, not the product or treatment, so it is not an unqualified superlative claim about the drug."
+        },
+        {
+          "rule_id": "R1",
+          "quote": "not FDA-approved",
+          "reason": "The phrase is a disclaimer that the compounded medication is not FDA-approved, not a claim that it is or is reviewed by the FDA."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0005004
+    },
+    {
+      "line": 9,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00026370000000000007
+    },
+    {
+      "line": 10,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R2",
+          "quote": "same as",
+          "reason": "Refers to the price of monthly check-ins matching the first visit, not the drug being the same as a branded product."
+        },
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "Used in the disclosure 'Compounded medications are not FDA-approved', which states the opposite of an approval claim."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0004484
+    },
+    {
+      "line": 11,
+      "expected": [],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R5",
+          "quote": "made by",
+          "reason": "The ad says a licensed provider makes treatment decisions, not that Halden Health makes or compounds the drug, so R5 does not apply."
+        },
+        {
+          "rule_id": "R5",
+          "quote": "made by",
+          "reason": "Duplicate lint hit for the same phrase; it refers to provider treatment decisions, not drug manufacture by the brand."
+        },
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "The ad states that compounded medications are not FDA-approved, which is the required disclosure and not a claim of approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.000578
+    },
+    {
+      "line": 12,
+      "expected": [
+        "R1"
+      ],
+      "predicted": [
+        "R1"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R1",
+          "severity": "block",
+          "quote": "FDA-approved ingredients",
+          "reason": "Claims the compounded product is made from FDA-approved ingredients, which R1 explicitly prohibits.",
+          "source": "lint",
+          "span": {
+            "start": 10,
+            "end": 34
+          }
+        },
+        {
+          "rule_id": "R1",
+          "severity": "block",
+          "quote": "FDA-approved ingredients",
+          "reason": "Repeats the claim that the compounded product is prepared using FDA-approved ingredients, which R1 prohibits.",
+          "source": "lint",
+          "span": {
+            "start": 10,
+            "end": 34
+          }
+        }
+      ],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved",
+          "reason": "This is a correct disclaimer that the product is not FDA-approved, not a claim of approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0007218
+    },
+    {
+      "line": 13,
+      "expected": [
+        "R1"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved.",
+          "reason": "The lint hit is a negated disclaimer stating the product is not FDA-approved, not a claim that it is. The separate 'passed federal drug review' wording is not part of this lint hit, so it is not reported here under rule 2."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0008079
+    },
+    {
+      "line": 14,
+      "expected": [
+        "R2"
+      ],
+      "predicted": [
+        "R2"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R2",
+          "severity": "block",
+          "quote": "Ozempic",
+          "reason": "The brand name is used in the headline to sell a compounded semaglutide at a lower price, implying equivalence to the branded drug.",
+          "source": "lint",
+          "span": {
+            "start": 0,
+            "end": 7
+          }
+        },
+        {
+          "rule_id": "R2",
+          "severity": "block",
+          "quote": "same active ingredient as Ozempic",
+          "reason": "Explicitly claims sameness to a branded drug through the 'same active ingredient as' phrasing, which R2 prohibits.",
+          "source": "lint",
+          "span": {
+            "start": 52,
+            "end": 85
+          }
+        }
+      ],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "The phrase appears only in the disclaimer 'Compounded medications are not FDA-approved', which is an accurate statement and not a claim of approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0007375
+    },
+    {
+      "line": 15,
+      "expected": [
+        "R2"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "The ad uses FDA-approved only in the disclosure \"Compounded medications are not FDA-approved,\" which denies approval and does not claim it."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0005412
+    },
+    {
+      "line": 16,
+      "expected": [
+        "R3"
+      ],
+      "predicted": [
+        "R3"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R3",
+          "severity": "block",
+          "quote": "Lose 20 lbs in 8 weeks",
+          "reason": "Specific weight-loss amount and timeline are unsubstantiated efficacy claims.",
+          "source": "lint",
+          "span": {
+            "start": 0,
+            "end": 22
+          }
+        }
+      ],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "The phrase appears only in the negated disclaimer 'Compounded medications are not FDA-approved', which does not claim FDA approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0007147000000000001
+    },
+    {
+      "line": 17,
+      "expected": [
+        "R3"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00028720000000000004
+    },
+    {
+      "line": 18,
+      "expected": [
+        "R4"
+      ],
+      "predicted": [
+        "R4"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R4",
+          "severity": "block",
+          "quote": "risk-free",
+          "reason": "Absolute safety claim that the drug is risk-free, which is not qualified and violates R4 regardless of product type.",
+          "source": "lint",
+          "span": {
+            "start": 28,
+            "end": 37
+          }
+        },
+        {
+          "rule_id": "R4",
+          "severity": "block",
+          "quote": "no side effects",
+          "reason": "Absolute safety claim that the drug has no side effects, which is not qualified and violates R4.",
+          "source": "lint",
+          "span": {
+            "start": 46,
+            "end": 61
+          }
+        }
+      ],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0004074
+    },
+    {
+      "line": 19,
+      "expected": [
+        "R4"
+      ],
+      "predicted": [
+        "R4"
+      ],
+      "verdict": "warn",
+      "findings": [
+        {
+          "rule_id": "R4",
+          "severity": "warn",
+          "quote": "#1 choice",
+          "reason": "Unqualified superlative claiming to be the top choice for thinning hair, with no substantiation.",
+          "source": "lint",
+          "span": {
+            "start": 4,
+            "end": 13
+          }
+        },
+        {
+          "rule_id": "R4",
+          "severity": "warn",
+          "quote": "best hair loss treatment available",
+          "reason": "Unqualified superlative calling oral minoxidil the best hair loss treatment available, with no substantiation.",
+          "source": "lint",
+          "span": {
+            "start": 84,
+            "end": 118
+          }
+        }
+      ],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0005184
+    },
+    {
+      "line": 20,
+      "expected": [
+        "R4"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "not FDA-approved",
+          "reason": "The ad states that compounded medications are not FDA-approved, which is a required disclosure and not a claim of approval."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00040760000000000004
+    },
+    {
+      "line": 21,
+      "expected": [
+        "R5"
+      ],
+      "predicted": [
+        "R5"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R5",
+          "severity": "block",
+          "quote": "Our formula, made for you",
+          "reason": "Presents the drug as the telehealth brand's own formula, implying the brand makes or compounds it.",
+          "source": "lint",
+          "span": {
+            "start": 0,
+            "end": 25
+          }
+        },
+        {
+          "rule_id": "R5",
+          "severity": "block",
+          "quote": "Our formula of compounded semaglutide is mixed in-house",
+          "reason": "States the brand itself mixes the compounded drug in-house, which implies the brand compounds it.",
+          "source": "lint",
+          "span": {
+            "start": 28,
+            "end": 83
+          }
+        }
+      ],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved.",
+          "reason": "The phrase is a truthful disclaimer that the product is not FDA-approved, not a claim that it is."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0007984
+    },
+    {
+      "line": 22,
+      "expected": [
+        "R5"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "FDA-approved",
+          "reason": "The phrase appears in the disclosure \"Compounded medications are not FDA-approved\", which states the opposite of an approval claim, so it is not a violation."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0003726
+    },
+    {
+      "line": 23,
+      "expected": [
+        "R6"
+      ],
+      "predicted": [
+        "R6"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R6",
+          "severity": "block",
+          "quote": "No prescription needed",
+          "reason": "States that no prescription is needed and says to skip the doctor's visit, which contradicts the requirement that a prescription depends on evaluation by a licensed provider.",
+          "source": "lint",
+          "span": {
+            "start": 0,
+            "end": 22
+          }
+        }
+      ],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0003571
+    },
+    {
+      "line": 24,
+      "expected": [
+        "R6"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "Compounded medications are not FDA-approved",
+          "reason": "The ad uses 'FDA-approved' only to disclose that the compounded product is not FDA-approved, which is the opposite of a claim that it is approved."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00042080000000000004
+    },
+    {
+      "line": 25,
+      "expected": [
+        "R7"
+      ],
+      "predicted": [
+        "R7"
+      ],
+      "verdict": "warn",
+      "findings": [
+        {
+          "rule_id": "R7",
+          "severity": "warn",
+          "quote": "transformation",
+          "reason": "The headline invites viewers to 'See the transformation,' which frames the ad around transformation results.",
+          "source": "lint",
+          "span": {
+            "start": 8,
+            "end": 22
+          }
+        },
+        {
+          "rule_id": "R7",
+          "severity": "warn",
+          "quote": "before and after",
+          "reason": "'Before and after photos' of patients are presented as the core of the ad, implying typical results from the product.",
+          "source": "lint",
+          "span": {
+            "start": 45,
+            "end": 61
+          }
+        }
+      ],
+      "dismissed_lint": [
+        {
+          "rule_id": "R1",
+          "quote": "not FDA-approved",
+          "reason": "The phrase is a required disclosure that the product is not FDA-approved, not a claim that it is approved or reviewed."
+        }
+      ],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0006452999999999999
+    },
+    {
+      "line": 26,
+      "expected": [
+        "R7"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.00032
+    },
+    {
+      "line": 27,
+      "expected": [
+        "R8"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0003249
+    },
+    {
+      "line": 28,
+      "expected": [
+        "R8"
+      ],
+      "predicted": [],
+      "verdict": "pass",
+      "findings": [],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0003049
+    },
+    {
+      "line": 29,
+      "expected": [
+        "R1",
+        "R2",
+        "R3",
+        "R6",
+        "R8"
+      ],
+      "predicted": [
+        "R1",
+        "R2",
+        "R3",
+        "R6"
+      ],
+      "verdict": "block",
+      "findings": [
+        {
+          "rule_id": "R2",
+          "severity": "block",
+          "quote": "Wegovy results",
+          "reason": "Uses the brand name Wegovy to imply the compounded product is the same as the branded drug.",
+          "source": "lint",
+          "span": {
+            "start": 0,
+            "end": 14
+          }
+        },
+        {
+          "rule_id": "R2",
+          "severity": "block",
+          "quote": "same as Wegovy",
+          "reason": "Explicitly claims sameness or equivalence to the branded drug Wegovy.",
+          "source": "lint",
+          "span": {
+            "start": 43,
+            "end": 57
+          }
+        },
+        {
+          "rule_id": "R2",
+          "severity": "block",
+          "quote": "same as Wegovy",
+          "reason": "Second Wegovy lint hit in the same phrase, claiming equivalence to the branded drug.",
+          "source": "lint",
+          "span": {
+            "start": 43,
+            "end": 57
+          }
+        },
+        {
+          "rule_id": "R1",
+          "severity": "block",
+          "quote": "FDA-approved",
+          "reason": "Claims a compounded product is FDA-approved, which is not permitted for compounded products.",
+          "source": "lint",
+          "span": {
+            "start": 59,
+            "end": 71
+          }
+        },
+        {
+          "rule_id": "R3",
+          "severity": "block",
+          "quote": "guaranteed to work",
+          "reason": "Guarantees efficacy, an unsubstantiated efficacy claim.",
+          "source": "lint",
+          "span": {
+            "start": 76,
+            "end": 94
+          }
+        },
+        {
+          "rule_id": "R3",
+          "severity": "block",
+          "quote": "Lose 30 lbs",
+          "reason": "States a specific weight-loss amount, an unsubstantiated efficacy claim.",
+          "source": "lint",
+          "span": {
+            "start": 96,
+            "end": 107
+          }
+        },
+        {
+          "rule_id": "R6",
+          "severity": "block",
+          "quote": "no prescription needed",
+          "reason": "States no prescription is needed, contradicting the requirement that a prescription depends on evaluation by a licensed provider.",
+          "source": "lint",
+          "span": {
+            "start": 109,
+            "end": 131
+          }
+        }
+      ],
+      "dismissed_lint": [],
+      "dropped_quotes": 0,
+      "cost_usd": 0.0009897
+    }
+  ]
+}

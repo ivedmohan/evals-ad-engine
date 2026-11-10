@@ -1,0 +1,394 @@
+{
+  "ts": "2026-11-09T18-39-11-338Z",
+  "briefs": 4,
+  "final_variants": 12,
+  "no_block_share": 1,
+  "avg_revisions": 0,
+  "total_cost_usd": 0.0094261,
+  "p50_latency_ms": 9434,
+  "errors": [],
+  "runs": [
+    {
+      "id": "weight_loss_compounded",
+      "runId": "run_mw9luuay",
+      "brief": {
+        "product_category": "weight_loss",
+        "product_type": "compounded",
+        "audience": "Busy working moms in their 30s",
+        "channel": "meta_feed",
+        "angle_options": [
+          "Convenience: manage your prescription and provider check-ins from your phone, fitting around work and school runs",
+          "Cost transparency: clear, upfront pricing with no hidden fees, so you know what you pay each month",
+          "Provider support: a licensed provider reviews your history and answers your questions throughout your program"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider.",
+          "Compounded medications are not FDA-approved."
+        ],
+        "tone": "Warm, practical, and respectful of busy schedules; supportive without hype or promises of specific results"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Convenience: manage your prescription and provider check-ins from your phone, fitting around work and school runs",
+            "headline": "Your Program, Around Your Schedule",
+            "primary_text": "Manage your prescription and provider check-ins from your phone, between work and school runs. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check Eligibility",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Convenience: manage your prescription and provider check-ins from your phone, fitting around work and school runs",
+              "headline": "Your Program, Around Your Schedule",
+              "primary_text": "Manage your prescription and provider check-ins from your phone, between work and school runs. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Eligibility",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Cost transparency: clear, upfront pricing with no hidden fees, so you know what you pay each month",
+            "headline": "Clear monthly pricing, no surprises",
+            "primary_text": "Know what you'll pay each month before you start. Halden Health lists clear, upfront pricing with no hidden fees, so your budget stays simple. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "See Your Pricing",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Cost transparency: clear, upfront pricing with no hidden fees, so you know what you pay each month",
+              "headline": "Clear monthly pricing, no surprises",
+              "primary_text": "Know what you'll pay each month before you start. Halden Health lists clear, upfront pricing with no hidden fees, so your budget stays simple. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "See Your Pricing",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Provider support: a licensed provider reviews your history and answers your questions throughout your program",
+            "headline": "A provider who reviews with you",
+            "primary_text": "Busy days leave little room for questions. Here, a licensed provider reviews your history and answers your questions throughout your program. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check eligibility",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Provider support: a licensed provider reviews your history and answers your questions throughout your program",
+              "headline": "A provider who reviews with you",
+              "primary_text": "Busy days leave little room for questions. Here, a licensed provider reviews your history and answers your questions throughout your program. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check eligibility",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0027868999999999997,
+      "ms": 10096
+    },
+    {
+      "id": "hair_loss",
+      "runId": "run_mw9luub8",
+      "brief": {
+        "product_category": "hair_loss",
+        "product_type": "fda_approved",
+        "audience": "Men in their late 20s concerned about hair thinning",
+        "channel": "instagram_story",
+        "angle_options": [
+          "Convenience: get a provider consult and prescription from home, with no clinic visit needed",
+          "Cost transparency: clear upfront pricing for treatment with no hidden fees",
+          "Provider support: a licensed provider reviews your history and checks in on your progress"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider."
+        ],
+        "tone": "Direct, confident, and straightforward; relatable without hype or promises of regrowth results"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Convenience: get a provider consult and prescription from home, with no clinic visit needed",
+            "headline": "Hair Thinning? Consult From Home",
+            "primary_text": "Thinning hair is common, and you don't need a clinic visit to ask about it. Start a provider consult from home and get a review on your schedule. Prescription required; eligibility determined by a licensed provider. Halden Health.",
+            "cta": "Start Your Consult",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Convenience: get a provider consult and prescription from home, with no clinic visit needed",
+              "headline": "Hair Thinning? Consult From Home",
+              "primary_text": "Thinning hair is common, and you don't need a clinic visit to ask about it. Start a provider consult from home and get a review on your schedule. Prescription required; eligibility determined by a licensed provider. Halden Health.",
+              "cta": "Start Your Consult",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Cost transparency: clear upfront pricing for treatment with no hidden fees",
+            "headline": "Hair Care Pricing, Upfront",
+            "primary_text": "Thinning hair at 28? You deserve to know the cost before you start. Halden Health shows clear, upfront pricing for treatment with no hidden fees. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "See Pricing",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Cost transparency: clear upfront pricing for treatment with no hidden fees",
+              "headline": "Hair Care Pricing, Upfront",
+              "primary_text": "Thinning hair at 28? You deserve to know the cost before you start. Halden Health shows clear, upfront pricing for treatment with no hidden fees. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "See Pricing",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Provider support: a licensed provider reviews your history and checks in on your progress",
+            "headline": "A licensed provider, reviewing your case",
+            "primary_text": "Thinning hair at 28 is worth taking seriously. Halden Health connects you with a licensed provider who reviews your history and checks in on your progress over time. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "See If You Qualify",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Provider support: a licensed provider reviews your history and checks in on your progress",
+              "headline": "A licensed provider, reviewing your case",
+              "primary_text": "Thinning hair at 28 is worth taking seriously. Halden Health connects you with a licensed provider who reviews your history and checks in on your progress over time. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "See If You Qualify",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0017803999999999997,
+      "ms": 8772
+    },
+    {
+      "id": "mens_health",
+      "runId": "run_mw9luub9",
+      "brief": {
+        "product_category": "mens_health",
+        "product_type": "fda_approved",
+        "audience": "Men over 40 seeking discreet treatment for erectile dysfunction",
+        "channel": "google_search",
+        "angle_options": [
+          "Discreet, private online consultation from home with no in-person clinic visit required",
+          "Transparent pricing with clear costs shown upfront before starting a provider consultation",
+          "Licensed provider support to review eligibility and answer questions about treatment options"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider."
+        ],
+        "tone": "Discreet, respectful, matter-of-fact, and reassuring without implying guaranteed outcomes or using sexualized imagery"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Discreet, private online consultation from home with no in-person clinic visit required",
+            "headline": "Private Consults From Home",
+            "primary_text": "Start a private online consultation from home, with no clinic visit required. Discreet, convenient care on your schedule. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Start Your Consultation",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Discreet, private online consultation from home with no in-person clinic visit required",
+              "headline": "Private Consults From Home",
+              "primary_text": "Start a private online consultation from home, with no clinic visit required. Discreet, convenient care on your schedule. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Start Your Consultation",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Transparent pricing with clear costs shown upfront before starting a provider consultation",
+            "headline": "Clear Pricing Before You Start",
+            "primary_text": "See the full cost of a provider consultation before you begin with Halden Health. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "See Pricing",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Transparent pricing with clear costs shown upfront before starting a provider consultation",
+              "headline": "Clear Pricing Before You Start",
+              "primary_text": "See the full cost of a provider consultation before you begin with Halden Health. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "See Pricing",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Licensed provider support to review eligibility and answer questions about treatment options",
+            "headline": "Talk to a Licensed Provider",
+            "primary_text": "Have questions about treatment options? Halden Health connects you with a licensed provider who can review your eligibility and answer them privately, on your schedule. Prescription required; eligibility determined by a licensed provider. Start from home.",
+            "cta": "Check Your Eligibility",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Licensed provider support to review eligibility and answer questions about treatment options",
+              "headline": "Talk to a Licensed Provider",
+              "primary_text": "Have questions about treatment options? Halden Health connects you with a licensed provider who can review your eligibility and answer them privately, on your schedule. Prescription required; eligibility determined by a licensed provider. Start from home.",
+              "cta": "Check Your Eligibility",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0019297000000000001,
+      "ms": 8528
+    },
+    {
+      "id": "sketchy",
+      "runId": "run_mw9luub9",
+      "brief": {
+        "product_category": "weight_loss",
+        "product_type": "compounded",
+        "audience": "Adults interested in a prescription weight loss medication who want a convenient, telehealth-based option with a licensed provider involved",
+        "channel": "meta_feed",
+        "angle_options": [
+          "Convenience: start the consultation from home on your schedule, with a licensed provider reviewing your health history before any prescription is issued",
+          "Cost transparency: see the full price upfront with no hidden consultation fees, so you know what you are paying before you start",
+          "Provider support: ongoing check-ins with a licensed provider who can answer questions and adjust your plan as your needs change"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider.",
+          "Compounded medications are not FDA-approved."
+        ],
+        "tone": "Clear, honest, and supportive; plain language with no hype, no guarantees, and no comparisons to branded drugs"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Convenience: start the consultation from home on your schedule, with a licensed provider reviewing your health history before any prescription is issued",
+            "headline": "Consult from home, on your schedule",
+            "primary_text": "Start your consultation from home, on your schedule. A licensed provider reviews your health history before any prescription is issued. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check Eligibility",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Convenience: start the consultation from home on your schedule, with a licensed provider reviewing your health history before any prescription is issued",
+              "headline": "Consult from home, on your schedule",
+              "primary_text": "Start your consultation from home, on your schedule. A licensed provider reviews your health history before any prescription is issued. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Eligibility",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Cost transparency: see the full price upfront with no hidden consultation fees, so you know what you are paying before you start",
+            "headline": "No Hidden Consultation Fees",
+            "primary_text": "See the full price before you start, with no hidden consultation fees. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved. Know what you pay upfront with Halden Health.",
+            "cta": "View Full Pricing",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Cost transparency: see the full price upfront with no hidden consultation fees, so you know what you are paying before you start",
+              "headline": "No Hidden Consultation Fees",
+              "primary_text": "See the full price before you start, with no hidden consultation fees. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved. Know what you pay upfront with Halden Health.",
+              "cta": "View Full Pricing",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Provider support: ongoing check-ins with a licensed provider who can answer questions and adjust your plan as your needs change",
+            "headline": "Support From a Licensed Provider",
+            "primary_text": "Check in with a licensed provider who answers your questions and adjusts your plan as needs change. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Start Your Consultation",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Provider support: ongoing check-ins with a licensed provider who can answer questions and adjust your plan as your needs change",
+              "headline": "Support From a Licensed Provider",
+              "primary_text": "Check in with a licensed provider who answers your questions and adjusts your plan as needs change. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Start Your Consultation",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0029291000000000005,
+      "ms": 10385
+    }
+  ]
+}

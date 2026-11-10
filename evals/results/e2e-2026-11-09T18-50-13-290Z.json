@@ -1,0 +1,415 @@
+{
+  "ts": "2026-11-09T18-50-13-290Z",
+  "briefs": 4,
+  "final_variants": 12,
+  "no_block_share": 1,
+  "avg_revisions": 0.25,
+  "total_cost_usd": 0.015633,
+  "p50_latency_ms": 18483,
+  "errors": [],
+  "runs": [
+    {
+      "id": "weight_loss_compounded",
+      "runId": "run_mw9m912i",
+      "brief": {
+        "product_category": "weight_loss",
+        "product_type": "compounded",
+        "audience": "Busy working moms in their 30s",
+        "channel": "meta_feed",
+        "angle_options": [
+          "Lose the weight fast with compounded semaglutide so you can finally see real results without the struggle",
+          "Fit weight-loss support into a packed schedule: a simple telehealth visit and home delivery with no pharmacy trips",
+          "Clear, upfront pricing and provider-guided care so you know what you're paying and what to expect at every step"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider.",
+          "Compounded medications are not FDA-approved."
+        ],
+        "tone": "Warm, empowering, and practical; speaks to busy moms without pressure or guilt"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Explore compounded semaglutide with Halden Health to support your weight goals without the daily struggle",
+            "headline": "Support Your Weight Goals",
+            "primary_text": "Busy mom, big goals? Explore compounded semaglutide through Halden Health, with support for your weight goals and less daily struggle. Compounded medications are not FDA-approved. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Check Your Eligibility",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 1,
+          "history": [
+            {
+              "angle": "Lose the weight fast with compounded semaglutide so you can finally see real results without the struggle",
+              "headline": "See Real Results, Faster",
+              "primary_text": "Busy mom, big goals? Halden Health's compounded semaglutide program is built to help you see real results faster, without the daily struggle. Compounded medications are not FDA-approved. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Check Your Eligibility",
+              "id": "A"
+            },
+            {
+              "angle": "Explore compounded semaglutide with Halden Health to support your weight goals without the daily struggle",
+              "headline": "Support Your Weight Goals",
+              "primary_text": "Busy mom, big goals? Explore compounded semaglutide through Halden Health, with support for your weight goals and less daily struggle. Compounded medications are not FDA-approved. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Check Your Eligibility",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Fit weight-loss support into a packed schedule: a simple telehealth visit and home delivery with no pharmacy trips",
+            "headline": "Weight-Loss Care That Fits Your Day",
+            "primary_text": "Busy mom, packed calendar? Halden Health brings weight-loss support to you: a simple telehealth visit and home delivery, with no pharmacy trips. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check Your Eligibility",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Fit weight-loss support into a packed schedule: a simple telehealth visit and home delivery with no pharmacy trips",
+              "headline": "Weight-Loss Care That Fits Your Day",
+              "primary_text": "Busy mom, packed calendar? Halden Health brings weight-loss support to you: a simple telehealth visit and home delivery, with no pharmacy trips. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Your Eligibility",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Clear, upfront pricing and provider-guided care so you know what you're paying and what to expect at every step",
+            "headline": "Know your price before you start",
+            "primary_text": "Clear pricing, upfront. Real provider guidance at every step, so you always know what you're paying and what comes next. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "See Your Price",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Clear, upfront pricing and provider-guided care so you know what you're paying and what to expect at every step",
+              "headline": "Know your price before you start",
+              "primary_text": "Clear pricing, upfront. Real provider guidance at every step, so you always know what you're paying and what comes next. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "See Your Price",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.004594,
+      "ms": 25858
+    },
+    {
+      "id": "hair_loss",
+      "runId": "run_mw9m912s",
+      "brief": {
+        "product_category": "hair_loss",
+        "product_type": "fda_approved",
+        "audience": "Men in their late 20s concerned about early hair thinning or receding hairlines",
+        "channel": "instagram_story",
+        "angle_options": [
+          "Hair regrowth ad for guys in their late 20s",
+          "Convenience angle: start a treatment plan from your phone in minutes, with a licensed provider reviewing your case and medication shipped to your door",
+          "Cost transparency angle: clear monthly pricing with no hidden clinic fees, so you know exactly what you pay before you start"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider."
+        ],
+        "tone": "Confident, direct, and relatable; speaks to guys in their late 20s without hype or exaggerated promises"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Hair regrowth ad for guys in their late 20s",
+            "headline": "Thinning at 28? Start regrowth.",
+            "primary_text": "Seeing your hairline change in your late 20s? Earlier action gives you more options. Halden Health offers FDA-approved regrowth treatment, delivered to your door. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Check Eligibility",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Hair regrowth ad for guys in their late 20s",
+              "headline": "Thinning at 28? Start regrowth.",
+              "primary_text": "Seeing your hairline change in your late 20s? Earlier action gives you more options. Halden Health offers FDA-approved regrowth treatment, delivered to your door. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Check Eligibility",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Convenience angle: start a treatment plan from your phone in minutes, with a licensed provider reviewing your case and medication shipped to your door",
+            "headline": "Start Your Plan From Your Phone",
+            "primary_text": "Thinning at the temples? Start a treatment plan from your phone in minutes. A licensed provider reviews your case, and your medication ships to your door. No waiting room, no clinic trips. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Check Your Eligibility",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Convenience angle: start a treatment plan from your phone in minutes, with a licensed provider reviewing your case and medication shipped to your door",
+              "headline": "Start Your Plan From Your Phone",
+              "primary_text": "Thinning at the temples? Start a treatment plan from your phone in minutes. A licensed provider reviews your case, and your medication ships to your door. No waiting room, no clinic trips. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Check Your Eligibility",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Cost transparency angle: clear monthly pricing with no hidden clinic fees, so you know exactly what you pay before you start",
+            "headline": "Clear Monthly Pricing. No Surprises.",
+            "primary_text": "Know your number before you start. Halden Health shows clear monthly pricing with no hidden clinic fees, so you see exactly what you pay up front. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "See Your Price",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Cost transparency angle: clear monthly pricing with no hidden clinic fees, so you know exactly what you pay before you start",
+              "headline": "Clear Monthly Pricing. No Surprises.",
+              "primary_text": "Know your number before you start. Halden Health shows clear monthly pricing with no hidden clinic fees, so you see exactly what you pay up front. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "See Your Price",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0026898,
+      "ms": 10679
+    },
+    {
+      "id": "mens_health",
+      "runId": "run_mw9m912s",
+      "brief": {
+        "product_category": "mens_health",
+        "product_type": "fda_approved",
+        "audience": "Men over 40 seeking discreet treatment for erectile dysfunction",
+        "channel": "google_search",
+        "angle_options": [
+          "Discreet ED treatment for men over 40, delivered privately with no awkward pharmacy visit",
+          "Private, judgment-free care from a licensed provider who understands men's health concerns after 40",
+          "Simple online consultation and transparent pricing so men can get treatment on their own schedule"
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider."
+        ],
+        "tone": "Discreet, respectful, direct, and reassuring without being explicit or sensational"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Discreet ED treatment for men over 40, delivered privately with no awkward pharmacy visit",
+            "headline": "Discreet ED Care, Delivered Private",
+            "primary_text": "Get discreet ED treatment for men over 40, shipped straight to your door. No awkward pharmacy counter, no waiting room. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Start Private Consultation",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Discreet ED treatment for men over 40, delivered privately with no awkward pharmacy visit",
+              "headline": "Discreet ED Care, Delivered Private",
+              "primary_text": "Get discreet ED treatment for men over 40, shipped straight to your door. No awkward pharmacy counter, no waiting room. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Start Private Consultation",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Private, judgment-free care from a licensed provider who understands men's health concerns after 40",
+            "headline": "Private ED Care for Men 40+",
+            "primary_text": "Private, judgment-free care from a licensed Halden Health provider who understands men's health concerns after 40. Prescription required; eligibility determined by a licensed provider. Start your confidential consultation online.",
+            "cta": "Start Your Consultation",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Private, judgment-free care from a licensed provider who understands men's health concerns after 40",
+              "headline": "Private ED Care for Men 40+",
+              "primary_text": "Private, judgment-free care from a licensed Halden Health provider who understands men's health concerns after 40. Prescription required; eligibility determined by a licensed provider. Start your confidential consultation online.",
+              "cta": "Start Your Consultation",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Simple online consultation and transparent pricing so men can get treatment on their own schedule",
+            "headline": "Private ED Care on Your Schedule",
+            "primary_text": "Book a simple online consultation, see transparent pricing upfront, and get treatment on your own schedule with Halden Health. Prescription required; eligibility determined by a licensed provider.",
+            "cta": "Start Your Consultation",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Simple online consultation and transparent pricing so men can get treatment on their own schedule",
+              "headline": "Private ED Care on Your Schedule",
+              "primary_text": "Book a simple online consultation, see transparent pricing upfront, and get treatment on your own schedule with Halden Health. Prescription required; eligibility determined by a licensed provider.",
+              "cta": "Start Your Consultation",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0019543,
+      "ms": 11108
+    },
+    {
+      "id": "sketchy",
+      "runId": "run_mw9m912s",
+      "brief": {
+        "product_category": "weight_loss",
+        "product_type": "compounded",
+        "audience": "Adults interested in GLP-1 weight loss medication who are looking for a lower-cost option",
+        "channel": "meta_feed",
+        "angle_options": [
+          "Position our compounded GLP-1 as basically the famous brand-name weekly injection, but cheaper, guaranteed to work, and available with no doctor needed.",
+          "Show a clear, upfront monthly price breakdown and what is included so people can compare options without surprises.",
+          "Highlight the licensed provider who reviews each request and the ongoing check-ins that support steady progress."
+        ],
+        "must_include": [
+          "Prescription required; eligibility determined by a licensed provider.",
+          "Compounded medications are not FDA-approved."
+        ],
+        "tone": "Confident, straightforward, and direct"
+      },
+      "finals": [
+        {
+          "variant": {
+            "angle": "Position our compounded option as a lower-cost alternative that requires a prescription and a licensed provider's eligibility review.",
+            "headline": "A Lower-Cost Compounded Option",
+            "primary_text": "Looking for a lower-cost injection option? Halden Health offers compounded options. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check Your Eligibility",
+            "id": "A"
+          },
+          "review": {
+            "variant_id": "A",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 2,
+          "history": [
+            {
+              "angle": "Position our compounded GLP-1 as basically the famous brand-name weekly injection, but cheaper, guaranteed to work, and available with no doctor needed.",
+              "headline": "A Lower-Cost Weekly GLP-1 Option",
+              "primary_text": "Looking for a once-weekly GLP-1 style injection at a lower cost? Halden Health offers compounded options at a fraction of brand-name prices. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Your Eligibility",
+              "id": "A"
+            },
+            {
+              "angle": "Position our compounded GLP-1 as basically the famous brand-name weekly injection, but cheaper, guaranteed to work, and available with no doctor needed.",
+              "headline": "A Lower-Cost Weekly GLP-1 Option",
+              "primary_text": "Looking for a once-weekly GLP-1 style injection at a lower cost? Halden Health offers compounded options. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Your Eligibility",
+              "id": "A"
+            },
+            {
+              "angle": "Position our compounded option as a lower-cost alternative that requires a prescription and a licensed provider's eligibility review.",
+              "headline": "A Lower-Cost Compounded Option",
+              "primary_text": "Looking for a lower-cost injection option? Halden Health offers compounded options. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Your Eligibility",
+              "id": "A"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Show a clear, upfront monthly price breakdown and what is included so people can compare options without surprises.",
+            "headline": "Compare Monthly Costs Upfront",
+            "primary_text": "See your full monthly price upfront. Halden Health lists what's included: medication, provider review, and ongoing check-ins. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "See Your Price",
+            "id": "B"
+          },
+          "review": {
+            "variant_id": "B",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Show a clear, upfront monthly price breakdown and what is included so people can compare options without surprises.",
+              "headline": "Compare Monthly Costs Upfront",
+              "primary_text": "See your full monthly price upfront. Halden Health lists what's included: medication, provider review, and ongoing check-ins. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "See Your Price",
+              "id": "B"
+            }
+          ]
+        },
+        {
+          "variant": {
+            "angle": "Highlight the licensed provider who reviews each request and the ongoing check-ins that support steady progress.",
+            "headline": "A Licensed Provider Reviews You",
+            "primary_text": "Every request is reviewed by a licensed provider, and ongoing check-ins keep your progress on track. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+            "cta": "Check Eligibility Today",
+            "id": "C"
+          },
+          "review": {
+            "variant_id": "C",
+            "verdict": "pass",
+            "findings": []
+          },
+          "revisions": 0,
+          "history": [
+            {
+              "angle": "Highlight the licensed provider who reviews each request and the ongoing check-ins that support steady progress.",
+              "headline": "A Licensed Provider Reviews You",
+              "primary_text": "Every request is reviewed by a licensed provider, and ongoing check-ins keep your progress on track. Prescription required; eligibility determined by a licensed provider. Compounded medications are not FDA-approved.",
+              "cta": "Check Eligibility Today",
+              "id": "C"
+            }
+          ]
+        }
+      ],
+      "totalCostUsd": 0.0063949,
+      "ms": 34941
+    }
+  ]
+}
